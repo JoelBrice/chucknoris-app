@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(9, 150, 226);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  margin: 10%;
+}
+.btn {
+  text-align: center;
+  background-color: rgba(3, 104, 187, 0.918);
+  border: none;
+  color: #eee;
+  border-radius: 12px;
+  min-width: 12px;
+  padding: 8px;
+  margin: 15% 5% 5% 5%;
+}
+.row {
+  align-content: center;
+  margin: 5% 30% 5% 30%;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: rgb(250, 140, 80);
+  color: rgb(255, 255, 255);
+}
+#fact {
+  text-align: center;
+  border: 0 solid rgb(255, 255, 255);
+  margin: 3em;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(240, 236, 236, 0.973);
+  font-size: 18px;
+  background-color: rgba(3, 104, 187, 0.918);
+  padding: auto;
+  border-radius: 5px;
+  max-width: 90%;
+}
+#fact:hover {
+  color: rgb(255, 255, 255);
+}
+#title {
+  text-align: center;
+  color: rgb(250, 140, 80);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  position: relative;
+  text-shadow: 0 6px 3px rgb(13, 6, 27);
+  font-weight: bolder;
+}
+#category-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1em;
+  list-style: circle;
+  background: linear-gradient(to bottom, black, white);
+}
